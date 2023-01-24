@@ -1,0 +1,126 @@
+.info__block {
+  height: 250px;
+  margin: 40px 0;
+
+  .who__we--are {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: -1px;
+    color: #1D263A;
+  }
+
+  .who__we--are--title {
+    width: 90%;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -1px;
+    color: #1D263A;
+    opacity: 0.7;
+  }
+}
+
+.gallery__block {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .gallery__link {
+    display: block;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -1px;
+    color: #FF794D;
+    opacity: 0.7;
+    margin-bottom: 20px;
+  }
+
+  .bgDark {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.2s linear;
+    border-radius: 8px;
+    background: rgba($color: #000000, $alpha: 0.6);
+  }
+
+  .gallery__img {
+    overflow: hidden;
+    cursor: pointer;
+
+    &:hover {
+      .bgDark {
+        transition: all 0.2s linear;
+        opacity: 1;
+      }
+    }
+
+    img {
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
+}
+
+.icon__badge {
+  height: 400px;
+  padding: 60px 0;
+  flex-wrap: wrap;
+
+  .icon__indicator {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 10px;
+  }
+
+  .icon__card--info {
+    .icon__card--title {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: #1D263A;
+      margin-bottom: 5px;
+    }
+
+    .icon__card--text {
+      width: 80%;
+      font-weight: 400;
+      font-size: 14px;
+      color: #1D263A;
+      opacity: 0.7;
+      margin: 0;
+    }
+  }
+}
+
+.statistic__block {
+  height: 250px;
+
+  .statistic__number {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 66px;
+    text-align: right;
+    letter-spacing: -1px;
+    color: #1D263A;
+  }
+
+  .statistic__info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1D263A;
+    opacity: 0.7;
+  }
+}

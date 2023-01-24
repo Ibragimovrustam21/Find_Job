@@ -1,0 +1,71 @@
+.job__desc--block {
+  padding: 60px 0;
+
+  .job__desc--info--block {
+    .job__desc--main--title {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 40px;
+      color: #1D263A;
+    }
+
+    .job__desc--text {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: rgba(29, 38, 58, 0.7);
+    }
+
+    .job__desc--title {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 30px;
+      color: #1D263A;
+    }
+
+    .job__desc--menu {
+      margin: 0;
+      padding: 0 20px;
+      list-style: disc;
+
+      li {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: rgba(29, 38, 58, 0.7);
+      }
+    }
+  }
+
+  .job__desc--contact--block {
+    padding: 0 40px;
+
+    .job__desc--contact--box {
+      background: #F9FAFB;
+      border: 1px solid #D6EBE4;
+      border-radius: 10px;
+      padding: 30px;
+
+      .contact__main--title {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+        color: #000000;
+      }
+
+      .contact__label {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 30px;
+        color: #FF794D;
+      }
+
+      .contact__desc {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #1D263A;
+      }
+    }
+  }
+}

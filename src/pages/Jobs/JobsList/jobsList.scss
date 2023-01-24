@@ -1,0 +1,54 @@
+.jobList__item {
+  margin-top: 20px;
+  border-bottom: 2px solid #DFDFDF;
+
+  .jobList__item--head {
+    .jobs__name {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 30px;
+      color: #1D263A;
+    }
+
+    .post__time {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #1D263A;
+    }
+  }
+
+  .jobList__item--tags {
+    margin: 20px 0;
+
+    .location {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 30px;
+      color: #000000;
+    }
+
+    .job__tag {
+      background: #20BFA9;
+      border-radius: 30px;
+      padding: 10px 20px;
+      color: #fff;
+      margin: 0 10px;
+    }
+
+    .estimated__salary {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      color: #1D263A;
+      margin-right: 10px;
+    }
+
+    .estimated__salary--cost {
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 30px;
+      color: #20BFA9;
+    }
+  }
+}

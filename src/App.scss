@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.app__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.wrapper {
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.dFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}

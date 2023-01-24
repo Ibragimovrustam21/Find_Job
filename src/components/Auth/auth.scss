@@ -1,0 +1,50 @@
+.auth {
+  .auth__wrapper {
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .auth__title {
+      font-weight: 600;
+      font-size: 45px;
+      line-height: 66px;
+      letter-spacing: -1px;
+      color: #1D263A;
+    }
+
+    .auth__text {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      color: #1D263A;
+      opacity: 0.7;
+      margin-bottom: 30px;
+    }
+
+    .checkbox__title {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      color: rgba(29, 38, 58, 0.8);
+
+    }
+
+    .forget__password--title {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      color: #1D263A;
+
+      .reset__title {
+        font-size: 18px;
+
+        text-decoration: none;
+      }
+    }
+
+  }
+}

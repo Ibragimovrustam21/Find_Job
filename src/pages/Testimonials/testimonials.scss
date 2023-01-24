@@ -1,0 +1,44 @@
+.testimonials__cards--group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .testimonials__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .testimonials__cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 100px;
+  }
+}
+
+.testimonials__media--block {
+  height: 600px;
+
+  .testimonials__media--title {
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .testimonials__media--owner {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 45px;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+}

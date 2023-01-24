@@ -1,0 +1,90 @@
+.search__job--block {
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+  .job__search--input {
+    height: 50px;
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background: transparent;
+
+    &:focus {
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      outline: none;
+      box-shadow: none;
+    }
+
+    ::placeholder {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #888888;
+    }
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+.jobs__filter--block {
+  .jobs__categories {
+    background: #F9FAFB;
+    border: 1px solid #D6EBE4;
+    border-radius: 10px;
+
+    .jobs__categories--title {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 30px;
+      color: #1D263A;
+      margin-bottom: 15px;
+    }
+
+    .jobs__categories--list {
+      list-style: none;
+
+      li {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        color: #666666;
+        transition: all 0.2s linear;
+        border-radius: 10px;
+        padding: 4px 10px;
+        cursor: pointer;
+
+        &:hover {
+          background: #20BFA9;
+          color: #fff;
+          transition: all 0.3s linear;
+        }
+      }
+
+      li.active {
+        background: #20BFA9;
+        color: #fff;
+      }
+    }
+  }
+
+  .jobs__list {
+    .show__result {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #1D263A;
+    }
+
+    .post__job {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #FF7770;
+    }
+  }
+}

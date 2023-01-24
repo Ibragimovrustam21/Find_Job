@@ -1,0 +1,57 @@
+.card__item--box {
+  height: 350px;
+  padding: 10px;
+  cursor: pointer;
+
+  .card__item {
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(223, 223, 223, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+
+    .card__item--title {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 32px;
+      color: #1D263A;
+      margin-bottom: 40px;
+    }
+
+    .card__item--user {
+      display: flex;
+      align-items: center;
+      background: #f3f9f7;
+      border-radius: 10px;
+      padding: 10px;
+
+      .card__item--user--img {
+        margin-right: 10px;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .card__item--user--name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #1D263A;
+      }
+
+      .card__item--user--job {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #1D263A;
+        opacity: 0.7;
+      }
+    }
+  }
+}

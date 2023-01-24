@@ -1,0 +1,48 @@
+.carousel__testimonials {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .carousel__title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: -1px;
+    color: #1D263A;
+    margin: 80px 0;
+    width: 40%;
+  }
+
+  .slick-arrow {
+    background: #fff;
+    height: 50px !important;
+    width: 50px !important;
+    border: 2px solid rgba(223, 223, 223, 0.9);
+    border-radius: 10px;
+    position: absolute;
+    top: -140px;
+  }
+
+  .slick-prev {
+    left: 90%;
+
+    &::before {
+      content: '<';
+      color: #0A043C;
+      opacity: 0.9;
+      font-weight: bold;
+    }
+  }
+
+  .slick-next {
+    right: 1%;
+
+    &::before {
+      content: '>';
+      color: #0A043C;
+      opacity: 0.9;
+      font-weight: bold;
+    }
+  }
+}
