@@ -26,7 +26,9 @@ const menu = [
 ]
 
 export const Navbar = () => {
-  const [isAuth, setIsAuth] = useState(false)
+  let isAuth = false
+  // const [isAuth, setIsAuth] = useState(false)
+
   return (
     <div className='wrapper' id={isAuth ? 'navbar__wrapper' : ''}>
       <div className='navbar'>

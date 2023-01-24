@@ -8,7 +8,8 @@ import './App.scss'
 
 
 export const App = () => {
-  const [isAuth, setIsAuth] = useState(true)
+  let isAuth = false
+  // const [isAuth, setIsAuth] = useState(true)
 
   return (
     <div className="app__container">

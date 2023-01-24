@@ -36,7 +36,7 @@ export const WelcomerBanner = ({ img, title, text }) => {
         </div>
       </div>
       <div className='col welcomer__img--block'>
-        <img src={backgound} className='background__image' />
+        <img src={backgound} className='background__image' alt='' />
         <img src={img} alt='' />
       </div>
     </div>
